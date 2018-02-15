@@ -1,0 +1,25 @@
+{
+    "help": {
+      "help": [
+        "投票コマンドのヘルプを表示します。\n",
+        "コマンドの後にhelpを付け足すことでコマンドヘルプを表示します \n`{prefix}vote help` もしくは `{prefix}help vote`."
+      ]
+    },
+    "vote": {
+      "help": [
+        "投票を作成します。\n",
+        "最大20項目まで作成できます。 \n\n",
+        "`{prefix}vote --title \"あなたは赤い部屋が好きですか?\" --options \"はい;いいえ; \" --duration \"15\" --notify`\n",
+        "\n\nショートコード:\n\n",
+        "`{prefix}vote -T \"好きなパイ\" -O \"ラズベリーパイ;オレンジパイ;しょぼパイ\" -D \"7\" -N`\n",
+        "\n\nオプション無し:\n",
+        "`{prefix}vote -O \"Android;iOS\"`\n\n",
+        "`{prefix}vote option1; option2`\n",
+        "Option:\n\n",
+        "`--title , -T : タイトル`\n",
+        "`--options , -O : 質問`\n",
+        "`--duration , -D : 締め切り時間（分）`\n",
+        "`--notify , -N : 通知設定`"
+      ]
+    }
+  }
